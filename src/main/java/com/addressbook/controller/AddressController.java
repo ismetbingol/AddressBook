@@ -1,4 +1,5 @@
 package com.addressbook.controller;
+
 import pojo.AddressBook;
 import com.addressbook.service.AddressService;
 
@@ -27,7 +28,7 @@ public class AddressController {
     @Path("/getAllAddress")
     @Produces(MediaType.APPLICATION_JSON)
     public Response getAllAddress() throws SQLException {
-        List<AddressBook> addressBookList=addressService.getAllAddress();
+        List<AddressBook> addressBookList = addressService.getAllAddress();
         if (!addressBookList.isEmpty()) {
 
             return Response.ok(addressBookList).build();
@@ -36,6 +37,7 @@ public class AddressController {
         }
 
     }
+
     @Path("/{id}")
     @GET
     @Produces(MediaType.APPLICATION_JSON)
