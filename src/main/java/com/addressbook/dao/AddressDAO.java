@@ -7,8 +7,11 @@ import java.util.List;
 
 public interface AddressDAO {
 
-     List<AddressBook> getAllAddress() throws SQLException;
-     AddressBook find(int id ) throws SQLException;
-     void update(AddressBook addressBook);
-     void delete(AddressBook addressBook) throws SQLException;
+    List<AddressBook> getAllAddress() throws SQLException;
+
+    AddressBook find(int id) throws SQLException;
+
+    void update(AddressBook addressBook);
+
+    void delete(int id) throws SQLException;
 }

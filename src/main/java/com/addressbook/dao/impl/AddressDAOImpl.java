@@ -54,11 +54,12 @@ public class AddressDAOImpl implements AddressDAO {
 
     }
 
-    public void delete(AddressBook addressBook) throws SQLException {
+    public void delete(int id) throws SQLException {
         connection = getConnection();
         String query = "DELETE FROM Address WHERE ID=?";
-        statement.executeQuery(query);
-
+        statement = connection.prepareStatement(query);
+        statement.setInt(1, id);
+        statement.executeUpdate();
 
     }
 

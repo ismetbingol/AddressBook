@@ -12,7 +12,6 @@ import java.util.List;
 public class AddressServiceImpl implements AddressService {
 
 
-
     private AddressDAO addressDAO;
 
     public AddressServiceImpl(AddressDAO addressDAO) {
@@ -20,18 +19,18 @@ public class AddressServiceImpl implements AddressService {
     }
 
     public List<AddressBook> getAllAddress() throws SQLException {
-       return addressDAO.getAllAddress();
+        return addressDAO.getAllAddress();
     }
 
     public AddressBook find(int id) throws SQLException {
-       return addressDAO.find(id);
+        return addressDAO.find(id);
     }
 
     public void update(AddressBook addressBook) {
         addressDAO.update(addressBook);
     }
 
-    public void delete(AddressBook addressBook) throws SQLException {
-        addressDAO.delete(addressBook);
+    public void delete(int id) throws SQLException {
+        addressDAO.delete(id);
     }
 }

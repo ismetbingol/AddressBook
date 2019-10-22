@@ -6,15 +6,13 @@ import java.sql.SQLException;
 
 public class DataBaseConnection {
 
-    public Connection createDataBase(){
+    public Connection createDataBase() {
 
 
         System.out.println("-------- MySQL JDBC Connection Demo ------------");
-        try
-        {
+        try {
             Class.forName("com.mysql.cj.jdbc.Driver");
-        }
-        catch (ClassNotFoundException e) {
+        } catch (ClassNotFoundException e) {
             System.out.println("MySQL JDBC Driver not found !!");
             return null;
         }
@@ -28,18 +26,6 @@ public class DataBaseConnection {
             System.out.println("Connection Failed! Check output console");
             return null;
         }
-
-       /*finally {
-            try
-            {
-                if(connection != null)
-                    connection.close();
-                System.out.println("Connection closed !!");
-            } catch (SQLException e) {
-                e.printStackTrace();
-            }
-        }*/
-
 
         return connection;
     }

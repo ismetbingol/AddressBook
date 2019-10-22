@@ -4,10 +4,7 @@ import pojo.AddressBook;
 import com.addressbook.service.AddressService;
 
 import javax.inject.Inject;
-import javax.ws.rs.GET;
-import javax.ws.rs.Path;
-import javax.ws.rs.PathParam;
-import javax.ws.rs.Produces;
+import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
 
@@ -38,11 +35,19 @@ public class AddressController {
 
     }
 
-    @Path("/{id}")
+    @Path("/find/{id}")
     @GET
     @Produces(MediaType.APPLICATION_JSON)
     public Response find(@PathParam("id") int id) throws SQLException {
         AddressBook addressBook = addressService.find(id);
         return Response.ok(addressBook).build();
     }
+
+    @Path("/delete/{id}")
+    @DELETE
+    public Response delete(@PathParam("id") int id) throws SQLException {
+        addressService.delete(id);
+        return Response.ok().entity("Trip deleted successfully").build();
+    }
+
 }

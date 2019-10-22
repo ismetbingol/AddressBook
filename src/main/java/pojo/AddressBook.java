@@ -1,7 +1,7 @@
 package pojo;
 
 public class AddressBook {
-    private int id ;
+    private int id;
     private String fullName;
     private String address;
     private String phoneNumber;
