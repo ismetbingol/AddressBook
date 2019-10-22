@@ -2,8 +2,6 @@ package com.addressbook.controller;
 
 import pojo.AddressBook;
 import com.addressbook.service.AddressService;
-
-import javax.inject.Inject;
 import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
@@ -48,6 +46,20 @@ public class AddressController {
     public Response delete(@PathParam("id") int id) throws SQLException {
         addressService.delete(id);
         return Response.ok().entity("Address is deleted successfully").build();
+    }
+
+    @Path("/update/{id}")
+    @PUT
+    @Consumes(MediaType.APPLICATION_FORM_URLENCODED)
+    public Response update(@FormParam("FullName") String fullName, @FormParam("Address") String address, @FormParam("PhoneNumber") String phoneNumber, @PathParam("id") int id) throws SQLException {
+
+        AddressBook addressBook = new AddressBook();
+        addressBook.setFullName(fullName);
+        addressBook.setAddress(address);
+        addressBook.setPhoneNumber(phoneNumber);
+        addressService.update(addressBook, id);
+        return Response.ok().entity("Address is updated successfully").build();
+
     }
 
 }

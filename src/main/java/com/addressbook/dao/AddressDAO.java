@@ -11,7 +11,7 @@ public interface AddressDAO {
 
     AddressBook find(int id) throws SQLException;
 
-    void update(AddressBook addressBook);
+    void update(AddressBook addressBook, int id) throws SQLException;
 
     void delete(int id) throws SQLException;
 }

@@ -26,8 +26,8 @@ public class AddressServiceImpl implements AddressService {
         return addressDAO.find(id);
     }
 
-    public void update(AddressBook addressBook) {
-        addressDAO.update(addressBook);
+    public void update(AddressBook addressBook, int id) throws SQLException {
+        addressDAO.update(addressBook, id);
     }
 
     public void delete(int id) throws SQLException {

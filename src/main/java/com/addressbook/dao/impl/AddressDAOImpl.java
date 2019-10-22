@@ -49,9 +49,15 @@ public class AddressDAOImpl implements AddressDAO {
         return addressBook;
     }
 
-    public void update(AddressBook addressBook) {
-
-
+    public void update(AddressBook addressBook, int id) throws SQLException {
+        connection = getConnection();
+        String query = "UPDATE dbo.Address SET FullName=?,Address=?,PhoneNumber=? WHERE ID=?";
+        statement = connection.prepareStatement(query);
+        statement.setString(1, addressBook.getFullName());
+        statement.setString(2, addressBook.getAddress());
+        statement.setString(3, addressBook.getPhoneNumber());
+        statement.setInt(4, id);
+        statement.executeUpdate();
     }
 
     public void delete(int id) throws SQLException {
@@ -60,7 +66,6 @@ public class AddressDAOImpl implements AddressDAO {
         statement = connection.prepareStatement(query);
         statement.setInt(1, id);
         statement.executeUpdate();
-
     }
 
 
