@@ -47,7 +47,7 @@ public class AddressController {
     @DELETE
     public Response delete(@PathParam("id") int id) throws SQLException {
         addressService.delete(id);
-        return Response.ok().entity("Trip deleted successfully").build();
+        return Response.ok().entity("Address is deleted successfully").build();
     }
 
 }
