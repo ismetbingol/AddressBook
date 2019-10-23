@@ -7,25 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="60318c59-4b10-4c29-863a-f5249a57ffcb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/addressbook/controller/AddressController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/addressbook/controller/AddressController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/addressbook/dao/AddressDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/addressbook/dao/AddressDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/addressbook/dao/impl/AddressDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/addressbook/dao/impl/AddressDAOImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/addressbook/service/AddressService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/addressbook/service/AddressService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/addressbook/service/impl/AddressServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/addressbook/service/impl/AddressServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/AddressBook-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/AddressBook-1.0-SNAPSHOT.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/AddressBook-1.0-SNAPSHOT/WEB-INF/classes/com/addressbook/config/DataBaseConnection.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/AddressBook-1.0-SNAPSHOT/WEB-INF/classes/com/addressbook/config/DataBaseConnection.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/AddressBook-1.0-SNAPSHOT/WEB-INF/classes/com/addressbook/controller/AddressController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/AddressBook-1.0-SNAPSHOT/WEB-INF/classes/com/addressbook/controller/AddressController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/AddressBook-1.0-SNAPSHOT/WEB-INF/classes/com/addressbook/dao/AddressDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/AddressBook-1.0-SNAPSHOT/WEB-INF/classes/com/addressbook/dao/AddressDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/AddressBook-1.0-SNAPSHOT/WEB-INF/classes/com/addressbook/dao/impl/AddressDAOImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/AddressBook-1.0-SNAPSHOT/WEB-INF/classes/com/addressbook/dao/impl/AddressDAOImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/AddressBook-1.0-SNAPSHOT/WEB-INF/classes/com/addressbook/service/AddressService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/AddressBook-1.0-SNAPSHOT/WEB-INF/classes/com/addressbook/service/AddressService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/AddressBook-1.0-SNAPSHOT/WEB-INF/classes/com/addressbook/service/impl/AddressServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/AddressBook-1.0-SNAPSHOT/WEB-INF/classes/com/addressbook/service/impl/AddressServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/addressbook/config/DataBaseConnection.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/addressbook/config/DataBaseConnection.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/addressbook/controller/AddressController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/addressbook/controller/AddressController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/addressbook/dao/AddressDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/addressbook/dao/AddressDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/addressbook/dao/impl/AddressDAOImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/addressbook/dao/impl/AddressDAOImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/addressbook/service/AddressService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/addressbook/service/AddressService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/addressbook/service/impl/AddressServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/addressbook/service/impl/AddressServiceImpl.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -263,14 +246,6 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/addressbook/dao/impl/AddressDAOImpl.java</url>
           <line>58</line>
           <option name="timeStamp" value="56" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/main/java/com/addressbook/service/impl/AddressServiceImpl.java</url>
-          <line>28</line>
-          <properties class="com.addressbook.service.impl.AddressServiceImpl" method="update">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="46" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -1,11 +1,9 @@
 package com.addressbook.service.impl;
 
-import pojo.AddressBook;
 import com.addressbook.dao.AddressDAO;
 import com.addressbook.service.AddressService;
+import pojo.AddressBook;
 
-
-import javax.inject.Inject;
 import java.sql.SQLException;
 import java.util.List;
 
