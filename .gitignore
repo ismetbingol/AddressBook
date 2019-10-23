@@ -7,6 +7,7 @@ tmp/
 node_modules/
 jaxws/jaxws-client/src/main/java
 jaxws/jaxws-endpoint/src/main/webapp/WEB-INF/wsdl/
+/.idea
 
 # OS Files #
 .DS_Store
