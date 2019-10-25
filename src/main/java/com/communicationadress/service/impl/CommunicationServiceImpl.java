@@ -1,12 +1,12 @@
 package com.communicationadress.service.impl;
 
+import com.communicationadress.pojo.Communication;
 import com.communicationadress.service.CommunicationService;
 import com.communicationadress.dao.CommunicationDAO;
 import com.communicationadress.pojo.Person;
 
 import java.sql.SQLException;
 import java.util.ArrayList;
-import java.util.List;
 
 public class CommunicationServiceImpl implements CommunicationService {
 
@@ -21,6 +21,16 @@ public class CommunicationServiceImpl implements CommunicationService {
     }
 
     public Person getCommunicationAddress(int id) throws SQLException {
-        return communicationDAO.getCommunicationAddress(id);
+        return communicationDAO.getPersonCommunicationAddress(id);
+    }
+
+    public void update(int personId, Communication communication) throws SQLException {
+
+        communicationDAO.update(personId, communication);
+    }
+
+    public void delete(int id) throws SQLException {
+
+        communicationDAO.delete(id);
     }
 }
