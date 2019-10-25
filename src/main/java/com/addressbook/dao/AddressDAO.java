@@ -1,6 +1,6 @@
 package com.addressbook.dao;
 
-import pojo.AddressBook;
+import com.addressbook.pojo.AddressBook;
 
 import java.sql.SQLException;
 import java.util.List;

@@ -1,7 +1,8 @@
 package com.addressbook.controller;
 
-import pojo.AddressBook;
+import com.addressbook.pojo.AddressBook;
 import com.addressbook.service.AddressService;
+
 import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
@@ -30,7 +31,6 @@ public class AddressController {
         } else {
             return Response.status(Response.Status.NOT_FOUND).build();
         }
-
     }
 
     @Path("/find/{id}")

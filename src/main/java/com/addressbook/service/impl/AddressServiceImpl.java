@@ -2,7 +2,7 @@ package com.addressbook.service.impl;
 
 import com.addressbook.dao.AddressDAO;
 import com.addressbook.service.AddressService;
-import pojo.AddressBook;
+import com.addressbook.pojo.AddressBook;
 
 import java.sql.SQLException;
 import java.util.List;

@@ -19,7 +19,7 @@
     </servlet-class>
     <init-param>
       <param-name>javax.ws.rs.Application</param-name>
-      <param-value>com.addressbook.AddressControllerApplication</param-value>
+      <param-value>com.communicationadress.CommunicationControllerApplication</param-value>
     </init-param>
   </servlet>
 

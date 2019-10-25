@@ -7,8 +7,46 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="60318c59-4b10-4c29-863a-f5249a57ffcb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/communicationadress/CommunicationControllerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/communicationadress/controller/CommunicationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/communicationadress/dao/CommunicationDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/communicationadress/dao/Impl/CommunicationDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/communicationadress/pojo/Communication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/communicationadress/pojo/CommunicationType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/communicationadress/pojo/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/communicationadress/service/CommunicationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/communicationadress/service/impl/CommunicationServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/addressbook/config/DataBaseConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/config/DataBaseConnection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/addressbook/controller/AddressController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/addressbook/controller/AddressController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/addressbook/dao/AddressDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/addressbook/dao/AddressDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/addressbook/dao/impl/AddressDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/addressbook/dao/impl/AddressDAOImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/addressbook/service/AddressService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/addressbook/service/AddressService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/addressbook/service/impl/AddressServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/addressbook/service/impl/AddressServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pojo/AddressBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/addressbook/pojo/AddressBook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/AddressBook-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/AddressBook-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/AddressBook-1.0-SNAPSHOT/WEB-INF/classes/com/addressbook/config/DataBaseConnection.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/AddressBook-1.0-SNAPSHOT/WEB-INF/classes/com/addressbook/controller/AddressController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/AddressBook-1.0-SNAPSHOT/WEB-INF/classes/com/addressbook/controller/AddressController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/AddressBook-1.0-SNAPSHOT/WEB-INF/classes/com/addressbook/dao/AddressDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/AddressBook-1.0-SNAPSHOT/WEB-INF/classes/com/addressbook/dao/AddressDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/AddressBook-1.0-SNAPSHOT/WEB-INF/classes/com/addressbook/dao/impl/AddressDAOImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/AddressBook-1.0-SNAPSHOT/WEB-INF/classes/com/addressbook/dao/impl/AddressDAOImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/AddressBook-1.0-SNAPSHOT/WEB-INF/classes/com/addressbook/service/AddressService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/AddressBook-1.0-SNAPSHOT/WEB-INF/classes/com/addressbook/service/AddressService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/AddressBook-1.0-SNAPSHOT/WEB-INF/classes/com/addressbook/service/impl/AddressServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/AddressBook-1.0-SNAPSHOT/WEB-INF/classes/com/addressbook/service/impl/AddressServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/AddressBook-1.0-SNAPSHOT/WEB-INF/classes/pojo/AddressBook.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/AddressBook-1.0-SNAPSHOT/WEB-INF/lib/javax.inject-1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/AddressBook-1.0-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/AddressBook-1.0-SNAPSHOT/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/addressbook/config/DataBaseConnection.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/addressbook/controller/AddressController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/addressbook/controller/AddressController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/addressbook/dao/AddressDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/addressbook/dao/AddressDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/addressbook/dao/impl/AddressDAOImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/addressbook/dao/impl/AddressDAOImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/addressbook/service/AddressService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/addressbook/service/AddressService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/addressbook/service/impl/AddressServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/addressbook/service/impl/AddressServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pojo/AddressBook.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,8 +57,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
+        <option value="Enum" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -47,10 +86,15 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.communicationadress" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -66,11 +110,11 @@
   </component>
   <component name="RunManager" selected="Tomcat Server.Tomcat 7.0.96">
     <configuration name="DataBaseConnection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.addressbook.config.DataBaseConnection" />
+      <option name="MAIN_CLASS_NAME" value="com.config.DataBaseConnection" />
       <module name="AddressBook" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.addressbook.config.*" />
+          <option name="PATTERN" value="com.config.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -79,7 +123,6 @@
       </method>
     </configuration>
     <configuration name="Tomcat 7.0.96" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.96" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/AddressBook_war/" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="AddressBook:war">
@@ -152,8 +195,8 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Tomcat Server.Tomcat 7.0.96" />
       <item itemvalue="Application.DataBaseConnection" />
+      <item itemvalue="Tomcat Server.Tomcat 7.0.96" />
     </list>
     <recent_temporary>
       <list>
@@ -172,6 +215,7 @@
       <option name="presentableId" value="Default" />
       <updated>1571407890857</updated>
       <workItem from="1571407892050" duration="38463000" />
+      <workItem from="1571925389087" duration="5736000" />
     </task>
     <servers />
   </component>
@@ -183,7 +227,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -193,61 +239,34 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/addressbook/dao/AddressDAO.java</url>
-          <line>16</line>
-          <option name="timeStamp" value="23" />
+          <url>file://$PROJECT_DIR$/src/main/java/com/communicationadress/controller/CommunicationController.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="70" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/addressbook/controller/AddressController.java</url>
-          <line>61</line>
-          <option name="timeStamp" value="44" />
+          <url>file://$PROJECT_DIR$/src/main/java/com/communicationadress/controller/CommunicationController.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="78" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/addressbook/controller/AddressController.java</url>
-          <line>62</line>
-          <option name="timeStamp" value="45" />
+          <url>file://$PROJECT_DIR$/src/main/java/com/communicationadress/controller/CommunicationController.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="79" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/addressbook/dao/impl/AddressDAOImpl.java</url>
-          <line>59</line>
-          <option name="timeStamp" value="47" />
+          <url>file://$PROJECT_DIR$/src/main/java/com/communicationadress/dao/Impl/CommunicationDAOImpl.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="81" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/addressbook/dao/impl/AddressDAOImpl.java</url>
-          <line>56</line>
-          <option name="timeStamp" value="49" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/addressbook/dao/impl/AddressDAOImpl.java</url>
-          <line>57</line>
-          <option name="timeStamp" value="50" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/addressbook/dao/impl/AddressDAOImpl.java</url>
-          <line>55</line>
-          <option name="timeStamp" value="51" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/addressbook/dao/impl/AddressDAOImpl.java</url>
-          <line>54</line>
-          <option name="timeStamp" value="53" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/addressbook/dao/impl/AddressDAOImpl.java</url>
-          <line>53</line>
-          <option name="timeStamp" value="54" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/addressbook/dao/impl/AddressDAOImpl.java</url>
-          <line>52</line>
-          <option name="timeStamp" value="55" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/addressbook/dao/impl/AddressDAOImpl.java</url>
-          <line>58</line>
-          <option name="timeStamp" value="56" />
+          <url>file://$PROJECT_DIR$/src/main/java/com/communicationadress/dao/Impl/CommunicationDAOImpl.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="82" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/AddressBook$Tomcat_7_0_96.ic" NAME="Tomcat 7.0.96 Coverage Results" MODIFIED="1571925317670" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

@@ -1,7 +1,7 @@
 package com.addressbook.dao.impl;
 
-import pojo.AddressBook;
-import com.addressbook.config.DataBaseConnection;
+import com.addressbook.pojo.AddressBook;
+import com.config.DataBaseConnection;
 import com.addressbook.dao.AddressDAO;
 
 import java.sql.*;
